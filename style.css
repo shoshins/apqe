@@ -208,15 +208,17 @@ a {
     height: 70px;
     border-radius: 50%;
     background: linear-gradient(135deg, #00b4d8, #0a2e50);
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 2rem;
+    vertical-align: middle;
 }
 
 .value-icon .material-icons {
-    font-size: 3.2rem;
+    font-size: 32px;
     color: #fff;
+    line-height: 1;
 }
 
 .value-card h5 {
@@ -277,8 +279,9 @@ a {
 }
 
 .solution-icon .material-icons {
-    font-size: 2.8rem;
+    font-size: 28px;
     color: #fff;
+    line-height: 1;
 }
 
 .solution-card h4 {
@@ -346,7 +349,8 @@ a {
 }
 
 .process-arrow .material-icons {
-    font-size: 3rem;
+    font-size: 30px;
+    line-height: 1;
 }
 
 /* ========== Contact ========== */
@@ -379,8 +383,9 @@ a {
 }
 
 .contact-list .material-icons {
-    font-size: 2.2rem;
+    font-size: 22px;
     color: #00b4d8;
+    line-height: 1;
 }
 
 .contact-list a {
