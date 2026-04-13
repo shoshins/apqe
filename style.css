@@ -208,11 +208,10 @@ a {
     height: 70px;
     border-radius: 50%;
     background: linear-gradient(135deg, #00b4d8, #0a2e50);
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 2rem;
-    vertical-align: middle;
 }
 
 .value-icon .material-icons {
